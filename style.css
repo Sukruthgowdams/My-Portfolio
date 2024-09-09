@@ -1,0 +1,60 @@
+#home{
+    background: linear-gradient(300deg, #6A9C89, white, #2b6e65);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+#home h1{
+    font-family: "Sacramento", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 7rem;
+    text-align: center;
+    color:#6A9C89;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.digi{color: #16423C;}
+.lay{height: 695px;}
+#aboutme{height: 400px;}
+.hey{
+    display: flex;
+    justify-content: center;
+    font-family: "Sacramento", cursive;
+    font-weight: 0;
+    font-style: normal;
+    font-size: 4rem;
+    text-align: center;
+    color:#6A9C89;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    }
+    .profile-img {
+        height: 250px;
+        border-radius: 50%;
+      }
+#know{font-family: "Sacramento", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 7rem;
+    text-align: center;
+    color:#6A9C89;
+    justify-content: center;
+    align-content: center;
+    align-items: center;}
+#qwe{color: brown;
+font-weight: 600;}
